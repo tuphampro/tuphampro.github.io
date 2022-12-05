@@ -5,12 +5,11 @@
             {
                 "appID": "GBPJ5C6723.com.vnpt.vnptkysoeidas.enterprise",
                 "paths": [
-                    "*",
-                    "/*"
+                    "/app*"
                 ],
                 "components": [
                     {
-                        "/": "*",
+                        "/": "/app*",
                         "comment": "Handle event jump app"
                     }
                 ]
