@@ -1,11 +1,25 @@
 {
-  "applinks": {
-       "apps": [],
+    "applinks": {
+        "apps": [],
         "details": [
-           {
-               "appID":"GBPJ5C6723.com.vnpt.vnptkysoeidas.enterprise”,
-               "paths":[ "*" ]
-           }
-         ]
+            {
+                "appID": "GBPJ5C6723.com.vnpt.vnptkysoeidas.enterprise",
+                "paths": [
+                    "*",
+                    "/*"
+                ],
+                "components": [
+                    {
+                        "/": "*",
+                        "comment": "Handle event jump app"
+                    }
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "GBPJ5C6723.com.vnpt.vnptkysoeidas.enterprise"
+        ]
     }
 }
